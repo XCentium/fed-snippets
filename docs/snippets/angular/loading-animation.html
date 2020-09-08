@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Loading Animation | FED Code Snippets</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="A collection of XCentium front-end development code snippets to reuse across projects.">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/fed-snippets/assets/css/0.styles.8640a7bf.css" as="style"><link rel="preload" href="/fed-snippets/assets/js/app.2ed8ea0f.js" as="script"><link rel="preload" href="/fed-snippets/assets/js/2.1d1bc8f3.js" as="script"><link rel="preload" href="/fed-snippets/assets/js/10.82ff8312.js" as="script"><link rel="prefetch" href="/fed-snippets/assets/js/11.263cf240.js"><link rel="prefetch" href="/fed-snippets/assets/js/12.51e5aba0.js"><link rel="prefetch" href="/fed-snippets/assets/js/13.d5afa28c.js"><link rel="prefetch" href="/fed-snippets/assets/js/14.da9b25c0.js"><link rel="prefetch" href="/fed-snippets/assets/js/15.be58b259.js"><link rel="prefetch" href="/fed-snippets/assets/js/16.bc6b8a82.js"><link rel="prefetch" href="/fed-snippets/assets/js/17.bda59658.js"><link rel="prefetch" href="/fed-snippets/assets/js/18.71926c58.js"><link rel="prefetch" href="/fed-snippets/assets/js/3.d51bebd4.js"><link rel="prefetch" href="/fed-snippets/assets/js/4.01051405.js"><link rel="prefetch" href="/fed-snippets/assets/js/5.f202cfef.js"><link rel="prefetch" href="/fed-snippets/assets/js/6.5cfe3e5d.js"><link rel="prefetch" href="/fed-snippets/assets/js/7.35df357b.js"><link rel="prefetch" href="/fed-snippets/assets/js/8.5cba541b.js"><link rel="prefetch" href="/fed-snippets/assets/js/9.0ad78914.js">
+    <link rel="stylesheet" href="/fed-snippets/assets/css/0.styles.8640a7bf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/fed-snippets/" class="home-link router-link-active"><!----> <span class="site-name">FED Code Snippets</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/fed-snippets/snippets/" class="nav-link router-link-active">
+  Snippets
+</a></div><div class="nav-item"><a href="/fed-snippets/contribute/" class="nav-link">
+  Contribute
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/fed-snippets/snippets/" class="nav-link router-link-active">
+  Snippets
+</a></div><div class="nav-item"><a href="/fed-snippets/contribute/" class="nav-link">
+  Contribute
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Accessibility</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fed-snippets/snippets/accessibility/screen-reader-only-text.html" class="sidebar-link">Screen Reader Only Text</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>HTML</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fed-snippets/snippets/html/favicon.html" class="sidebar-link">Favicon</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>CSS</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fed-snippets/snippets/css/animated-mobile-menu-button.html" class="sidebar-link">Animated Mobile Menu Button</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>SASS</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fed-snippets/snippets/sass/px-to-rem.html" class="sidebar-link">PX to REM Converter</a></li><li><a href="/fed-snippets/snippets/sass/aspect-ratio.html" class="sidebar-link">Aspect Ratio</a></li><li><a href="/fed-snippets/snippets/sass/style-based-on-element-count.html" class="sidebar-link">Style Based on Element Count</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>JavaScript</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fed-snippets/snippets/javascript/deep-clone-object.html" class="sidebar-link">Deep Clone Object</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Vue</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fed-snippets/snippets/vue/paste-plain-text.html" class="sidebar-link">Paste Plain Text</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>React</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fed-snippets/snippets/react/custom-hook.html" class="sidebar-link">Custom Hook</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Angular</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fed-snippets/snippets/angular/loading-animation.html" aria-current="page" class="active sidebar-link">Loading Animation</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="loading-animation"><a href="#loading-animation" class="header-anchor">#</a> Loading Animation</h1> <blockquote><p>by Andrew Aponte</p></blockquote> <p>A directive that will display a loading animation when passed <code>true</code>. It comes with two loading animations by default - floating dots, and a spinner.</p> <p>First, add the loading directive code:</p> <p><code>src/app/directives/loading.directive.ts</code></p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Directive<span class="token punctuation">,</span> ElementRef<span class="token punctuation">,</span> Input<span class="token punctuation">,</span> OnInit<span class="token punctuation">,</span> OnChanges<span class="token punctuation">,</span> OnDestroy <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@angular/core'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> v4 <span class="token keyword">as</span> uuid <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'uuid'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">enum</span> Types <span class="token punctuation">{</span>
+    <span class="token constant">DOTS</span> <span class="token operator">=</span> <span class="token string">'dots'</span><span class="token punctuation">,</span>
+    <span class="token constant">SPINNER</span> <span class="token operator">=</span> <span class="token string">'spinner'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">interface</span> <span class="token class-name">LoadingOptions</span> <span class="token punctuation">{</span>
+    <span class="token comment">/** This controls the loading icon color. */</span>
+    color<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/** The [x,y] position that the loading icon is placed in. Defaults to ['50%', '50%']. */</span>
+    position<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token builtin">string</span><span class="token punctuation">,</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/** This determines the loading icon size, in pixels. */</span>
+    size<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/** Type type of loading icon to display. The available options are &quot;dots&quot; and &quot;spinner&quot;. */</span>
+    <span class="token keyword">type</span><span class="token operator">?</span><span class="token operator">:</span> Types<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+@<span class="token function">Directive</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    selector<span class="token operator">:</span> <span class="token string">'[loading]'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">LoadingDirective</span> <span class="token keyword">implements</span> <span class="token class-name">OnInit</span><span class="token punctuation">,</span> OnChanges<span class="token punctuation">,</span> OnDestroy <span class="token punctuation">{</span>
+    @<span class="token function">Input</span><span class="token punctuation">(</span><span class="token punctuation">)</span> loading <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    @<span class="token function">Input</span><span class="token punctuation">(</span><span class="token punctuation">)</span> loadingOptions<span class="token operator">:</span> LoadingOptions<span class="token punctuation">;</span>
+
+    isReady <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    elem<span class="token operator">:</span> HTMLElement<span class="token punctuation">;</span>
+    iconElem<span class="token operator">:</span> HTMLElement<span class="token punctuation">;</span>
+    options<span class="token operator">:</span> LoadingOptions <span class="token operator">=</span> <span class="token punctuation">{</span>
+        color<span class="token operator">:</span> <span class="token string">'#000'</span><span class="token punctuation">,</span>
+        position<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'50%'</span><span class="token punctuation">,</span> <span class="token string">'50%'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        size<span class="token operator">:</span> <span class="token number">13</span><span class="token punctuation">,</span>
+        <span class="token keyword">type</span><span class="token operator">:</span> Types<span class="token punctuation">.</span><span class="token constant">DOTS</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    styleElem<span class="token operator">:</span> HTMLElement<span class="token punctuation">;</span>
+
+    <span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token keyword">private</span> elementRef<span class="token operator">:</span> ElementRef<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+    <span class="token function">ngOnInit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+        <span class="token comment">// skip if being called during SSR</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> document <span class="token operator">===</span> <span class="token string">'undefined'</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span>elem <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>elementRef<span class="token punctuation">.</span>nativeElement<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>options <span class="token operator">=</span> <span class="token punctuation">{</span>
+            <span class="token operator">...</span><span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">,</span>
+            <span class="token operator">...</span><span class="token keyword">this</span><span class="token punctuation">.</span>loadingOptions<span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">createElements</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">onChange</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">ngOnChanges</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+        <span class="token comment">// skip if being called during SSR</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> document <span class="token operator">===</span> <span class="token string">'undefined'</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">onChange</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">ngOnDestroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+        <span class="token comment">// skip if being called during SSR</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> document <span class="token operator">===</span> <span class="token string">'undefined'</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">createElements</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+        <span class="token comment">// adding &quot;gb-&quot; in the front as IDs cannot start with a number</span>
+        <span class="token comment">// ... if you want them to be used as CSS selectors</span>
+        <span class="token keyword">const</span> id <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">gb-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token function">uuid</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+        <span class="token keyword">switch</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span><span class="token keyword">type</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">case</span> Types<span class="token punctuation">.</span><span class="token constant">DOTS</span><span class="token operator">:</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span>id <span class="token operator">=</span> id<span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                <span class="token keyword">this</span><span class="token punctuation">.</span>styleElem <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'style'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>styleElem<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">generateStyles</span><span class="token punctuation">(</span>id<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span><span class="token keyword">type</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">case</span> Types<span class="token punctuation">.</span><span class="token constant">SPINNER</span><span class="token operator">:</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span>id <span class="token operator">=</span> id<span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                <span class="token keyword">this</span><span class="token punctuation">.</span>styleElem <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'style'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>styleElem<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">generateStyles</span><span class="token punctuation">(</span>id<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span><span class="token keyword">type</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">default</span><span class="token operator">:</span>
+                <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">warn</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">[LOADING DIRECTIVE] Unable to generate the elements. The specified type &quot;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span><span class="token keyword">type</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&quot; is not recognized.</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span>isReady <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">onChange</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span>isReady<span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>loading<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> currentPosition <span class="token operator">=</span> window<span class="token punctuation">.</span><span class="token function">getComputedStyle</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">)</span><span class="token punctuation">.</span>position<span class="token punctuation">;</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token string">'invisible-children'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>currentPosition <span class="token operator">===</span> <span class="token string">'static'</span><span class="token punctuation">)</span> <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">'position'</span><span class="token punctuation">,</span> <span class="token string">'relative'</span><span class="token punctuation">,</span> <span class="token string">'important'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">'color'</span><span class="token punctuation">,</span> <span class="token string">'transparent'</span><span class="token punctuation">,</span> <span class="token string">'important'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>styleElem<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span><span class="token string">'invisible-children'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">removeProperty</span><span class="token punctuation">(</span><span class="token string">'color'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">removeProperty</span><span class="token punctuation">(</span><span class="token string">'color'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span><span class="token function">removeChild</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>iconElem<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>styleElem<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">this</span><span class="token punctuation">.</span>elem<span class="token punctuation">.</span><span class="token function">removeChild</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>styleElem<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">generateStyles</span><span class="token punctuation">(</span>elemId<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span> <span class="token keyword">type</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">{</span>
+        <span class="token keyword">switch</span> <span class="token punctuation">(</span><span class="token keyword">type</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">case</span> Types<span class="token punctuation">.</span><span class="token constant">DOTS</span><span class="token operator">:</span>
+                <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> {
+                        position: absolute;
+                        left: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>position<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+                        top: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>position<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+                        transform: translateX(-50%) translateY(-50%);
+                        visibility: visible !important;
+                        vertical-align: middle;
+                        font-size: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>size <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px;
+                        margin-top: 0.6em;
+                    }
+        
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> &gt; div, #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">:before, #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">:after {
+                        display: inline-block;
+                        width: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>size <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px;
+                        height: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>size <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px;
+                        background: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>color <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+                        margin-bottom: -0.41em;
+                        border-radius: 50%;
+                        animation: loading-animation-dots 0.6s infinite alternate;
+                    }
+                    
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> &gt; div, #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">:before, #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">:after {
+                        content: &quot;&quot;;
+                    }
+                    
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> &gt; div {
+                        margin: 0 0.41em;
+                    }
+                    
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> &gt; div {
+                        animation-delay: 0.2s;
+                    }
+                    
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">:after {
+                        animation-delay: 0.4s;
+                    }
+                    
+                    @keyframes loading-animation-dots {
+                        to {
+                            opacity: 0.1;
+                            transform: translate3d(0, -1.23em, 0);
+                        }
+                    } 
+                </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+            <span class="token comment">// TODO - update this to work with options.size</span>
+            <span class="token keyword">case</span> Types<span class="token punctuation">.</span><span class="token constant">SPINNER</span><span class="token operator">:</span>
+                <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> {
+                        position: absolute;
+                        left: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>position<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+                        top: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>position<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+                        transform: translateX(-50%) translateY(-50%) scale(</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>size <span class="token operator">/</span> <span class="token number">16</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">);
+                        font-size: 1rem;
+                        width: 5em;
+                        height: 5em;
+                        visibility: visible !important;
+                    }
+
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div {
+                        animation: loading-animation-spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+                        transform-origin: 2.5em 2.5em;
+                    }
+                
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:after {
+                        content: &quot; &quot;;
+                        display: block;
+                        position: absolute;
+                        width: 0.5em;
+                        height: 0.5em;
+                        border-radius: 50%;
+                        background-color: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> <span class="token keyword">this</span><span class="token punctuation">.</span>options<span class="token punctuation">.</span>color <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+                        opacity: 0.5;
+                        margin: -0.25em 0 0 -0.25em;
+                    }
+                
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(1) { animation-delay: -0.036s; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(1):after { top: 63px; left: 63px; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(2) { animation-delay: -0.072s; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(2):after { top: 68px; left: 56px; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(3) { animation-delay: -0.108s; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(3):after { top: 71px; left: 48px; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(4) { animation-delay: -0.144s; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(4):after { top: 72px; left: 40px; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(5) { animation-delay: -0.18s; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(5):after { top: 71px; left: 32px; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(6) { animation-delay: -0.216s; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(6):after { top: 68px; left: 24px; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(7) { animation-delay: -0.252s; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(7):after { top: 63px; left: 17px; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(8) { animation-delay: -0.288s; }
+                    #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> elemId <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> div:nth-child(8):after { top: 56px; left: 12px; }
+                    
+                    @keyframes loading-animation-spinner {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        100% {
+                            transform: rotate(360deg);
+                        }
+                    }                
+                </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+            <span class="token keyword">default</span><span class="token operator">:</span>
+                <span class="token comment">// noop</span>
+                <span class="token keyword">return</span> <span class="token string">''</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><br> <p>Next, register the directive inside your root app module:</p> <p><code>src/app/app.module.ts</code></p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> NgModule <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@angular/core'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> LoadingDirective <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@/app/directives/loading.directive'</span><span class="token punctuation">;</span>
+
+@<span class="token function">NgModule</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    declarations<span class="token operator">:</span> <span class="token punctuation">[</span>LoadingDirective<span class="token punctuation">]</span><span class="token punctuation">,</span>
+    exports<span class="token operator">:</span> <span class="token punctuation">[</span>LoadingDirective<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">AppModule</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre></div><br> <p>Finally, use the directive as you see fit:</p> <p><code>src/app/components/foo/foo.component.html</code></p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span>
+    <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>button<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">[loading]</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>isLoading<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">[loadingOptions]</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{ type: <span class="token punctuation">'</span>dots<span class="token punctuation">'</span>, color: <span class="token punctuation">'</span>#222<span class="token punctuation">'</span>, size: 10 }<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">(click)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>onClick()<span class="token punctuation">&quot;</span></span>
+<span class="token punctuation">&gt;</span></span>
+    Click me to see the Dots animation
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span>
+    <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>button<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">[loading]</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>isLoading<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">[loadingOptions]</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{ type: <span class="token punctuation">'</span>spinner<span class="token punctuation">'</span>, color: <span class="token punctuation">'</span>#222<span class="token punctuation">'</span>, size: 10 }<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">(click)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>onClick()<span class="token punctuation">&quot;</span></span>
+<span class="token punctuation">&gt;</span></span>
+    Click me to see the Spinner animation
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><code>src/app/components/foo/foo.component.ts</code></p> <div class="language-ts extra-class"><pre class="language-ts"><code>@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    selector<span class="token operator">:</span> <span class="token string">'app-foo'</span><span class="token punctuation">,</span>
+    templateUrl<span class="token operator">:</span> <span class="token string">'./foo.component.html'</span><span class="token punctuation">,</span>
+    styleUrls<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'./foo.component.css'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">FooComponent</span> <span class="token punctuation">{</span>
+    isLoading <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+
+    <span class="token function">onClick</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>isLoading <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/fed-snippets/snippets/react/custom-hook.html" class="prev">
+        Custom Hook
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/fed-snippets/assets/js/app.2ed8ea0f.js" defer></script><script src="/fed-snippets/assets/js/2.1d1bc8f3.js" defer></script><script src="/fed-snippets/assets/js/10.82ff8312.js" defer></script>
+  </body>
+</html>

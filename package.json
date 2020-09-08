@@ -1,0 +1,19 @@
+{
+  "name": "fed-snippets",
+  "version": "0.0.1",
+  "description": "A collection of XCentium front-end development code snippets to reuse across projects.",
+  "main": "index.js",
+  "authors": {
+    "name": "XCentium",
+    "email": "support@xcentium.com"
+  },
+  "repository": "/fed-snippets",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>How to Contribute | FED Code Snippets</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="A collection of XCentium front-end development code snippets to reuse across projects.">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/fed-snippets/assets/css/0.styles.8640a7bf.css" as="style"><link rel="preload" href="/fed-snippets/assets/js/app.2ed8ea0f.js" as="script"><link rel="preload" href="/fed-snippets/assets/js/2.1d1bc8f3.js" as="script"><link rel="preload" href="/fed-snippets/assets/js/6.5cfe3e5d.js" as="script"><link rel="prefetch" href="/fed-snippets/assets/js/10.82ff8312.js"><link rel="prefetch" href="/fed-snippets/assets/js/11.263cf240.js"><link rel="prefetch" href="/fed-snippets/assets/js/12.51e5aba0.js"><link rel="prefetch" href="/fed-snippets/assets/js/13.d5afa28c.js"><link rel="prefetch" href="/fed-snippets/assets/js/14.da9b25c0.js"><link rel="prefetch" href="/fed-snippets/assets/js/15.be58b259.js"><link rel="prefetch" href="/fed-snippets/assets/js/16.bc6b8a82.js"><link rel="prefetch" href="/fed-snippets/assets/js/17.bda59658.js"><link rel="prefetch" href="/fed-snippets/assets/js/18.71926c58.js"><link rel="prefetch" href="/fed-snippets/assets/js/3.d51bebd4.js"><link rel="prefetch" href="/fed-snippets/assets/js/4.01051405.js"><link rel="prefetch" href="/fed-snippets/assets/js/5.f202cfef.js"><link rel="prefetch" href="/fed-snippets/assets/js/7.35df357b.js"><link rel="prefetch" href="/fed-snippets/assets/js/8.5cba541b.js"><link rel="prefetch" href="/fed-snippets/assets/js/9.0ad78914.js">
+    <link rel="stylesheet" href="/fed-snippets/assets/css/0.styles.8640a7bf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/fed-snippets/" class="home-link router-link-active"><!----> <span class="site-name">FED Code Snippets</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/fed-snippets/snippets/" class="nav-link">
+  Snippets
+</a></div><div class="nav-item"><a href="/fed-snippets/contribute/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Contribute
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/fed-snippets/snippets/" class="nav-link">
+  Snippets
+</a></div><div class="nav-item"><a href="/fed-snippets/contribute/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Contribute
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="how-to-contribute"><a href="#how-to-contribute" class="header-anchor">#</a> How to Contribute</h1> <h3 id="_1-get-repo-access"><a href="#_1-get-repo-access" class="header-anchor">#</a> 1. Get Repo Access</h3> <p>If you have not done so already, request access to the repo from one of the FE leads - <strong>Andrew Aponte</strong>, <strong>Leslie Jasper</strong>, <strong>Chris Castle</strong>, or <strong>Erik Aponte</strong>.</p> <br> <h3 id="_2-run-the-app-locally"><a href="#_2-run-the-app-locally" class="header-anchor">#</a> 2. Run the App Locally</h3> <div class="language- extra-class"><pre class="language-text"><code>npm install
+npm run dev
+</code></pre></div><br> <h3 id="_3-add-code-snippets"><a href="#_3-add-code-snippets" class="header-anchor">#</a> 3. Add Code Snippets</h3> <ul><li>Add a markdown file to the appropriate folder under <code>src/snippets</code>, using the following template:</li></ul> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token title important"><span class="token punctuation">#</span> Awesome Snippet</span>
+<span class="token blockquote punctuation">&gt;</span> by John Doe
+
+Aliquet etiam adipiscing suspendisse mus curabitur ultricies.
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token code keyword">`JS`</span>
+<span class="token code"><span class="token punctuation">```</span><span class="token code-language">js</span>
+<span class="token code-block language-js"><span class="token keyword">function</span> <span class="token function">myFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// do something</span>
+<span class="token punctuation">}</span></span>
+<span class="token punctuation">```</span></span>
+</code></pre></div><p>... remember to change the file extension (aka the part after the three backticks) so that your code displays the appropriate syntax highlighting.</p> <ul><li>Add a link to your file in the sidebar nav, by editing <code>src/.vuepress/config.js</code></li></ul> <br> <h3 id="_4-run-a-build-and-commit-your-changes"><a href="#_4-run-a-build-and-commit-your-changes" class="header-anchor">#</a> 4. Run a build and commit your changes</h3> <div class="language- extra-class"><pre class="language-text"><code>npm run build
+git add . --all
+git commit -m 'your commit message here`
+git push
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/fed-snippets/assets/js/app.2ed8ea0f.js" defer></script><script src="/fed-snippets/assets/js/2.1d1bc8f3.js" defer></script><script src="/fed-snippets/assets/js/6.5cfe3e5d.js" defer></script>
+  </body>
+</html>
