@@ -52,6 +52,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                         'accessibility/screen-reader-only-text',
+                        'accessibility/keyboard-focus-trap',
                     ]
                 },
                 {
@@ -82,6 +83,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         'javascript/deep-clone-object',
+                        'javascript/get-set-cookies',
+                        'javascript/nested-object-loop',
                     ]
                 },
                 {
@@ -102,6 +105,7 @@ module.exports = {
                     title: 'Angular',
                     collapsable: false,
                     children: [
+                        'angular/keyboard-focus-trap',
                         'angular/loading-animation',
                     ]
                 },
